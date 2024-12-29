@@ -2,7 +2,7 @@
 base_url = "https://attajak.github.io/zola-demo/"
 
 # The title of the site
-title = "Zola(Rust) Demo"
+title = "Zola Demo"
 
 # The description of the site
 description = "Hacker is a theme for Zola"
@@ -44,7 +44,7 @@ title_separator = "|" # set as |, -, _, etc
 logo = "apple-touch-icon.png"
 
 # Google Analytics tracking ID
-google_analytics = "example-tracking-id"
+# google_analytics = "example-tracking-id"
 
 # Contact form script id that points to google macros (e.g. https://script.google.com/macros/s/<script-identifier>/exec)
 # More info about contact form based on google macros can be found here: https://github.com/en9inerd/learn-to-send-email-via-google-script-html-no-server
@@ -81,16 +81,16 @@ simplified_tags = false
 social_links = [
   { platform = "email", user_id = "janrak@gmail.com" },
   { platform = "github", user_id = "attajak" },
-  # { platform = "linkedin", user_id = "johndoe" },
+  { platform = "linkedin", user_id = "attajak" },
   { platform = "feed", user_id = true },
   # { platform = "keyoxide", user_id = "aspe:host:XXXXXXX" },
   { platform = "facebook", user_id = "attajak" },
-  # { platform = "instagram", user_id = "" },
+  { platform = "instagram", user_id = "attajak" },
   # { platform = "pinterest", user_id = "" },
   { platform = "twitter", user_id = "attajak" },
   # { platform = "stackoverflow", user_id = "" },
-  # { platform = "youtube", user_id = "" },
-  # { platform = "telegram", user_id = "" },
+  { platform = "youtube", user_id = "@attjak" },
+  { platform = "telegram", user_id = "attajak" },
 ]
 
 # GitHub settings that are used to generate the edit page link
@@ -122,11 +122,11 @@ fingerprint = "0000 0000 0000 0000 0000 0000 0000 0000 0000 0000"
 # JSON-LD metadata
 [extra.bio]
 gender = "male"
-employer_name = "Unknown"
-employer_url = "https://unknown.com"
+employer_name = "Attajak Janrak"
+employer_url = "https://attajak.github.io"
 job_title = "Software Engineer"
 links = [
-  "https://github.com/johndoe",
-  "https://linkedin.com/in/johndoe",
-  "https://twitter.com/johndoe",
+  "https://github.com/attajak",
+  "https://linkedin.com/in/attajak",
+  "https://twitter.com/attajak",
 ]

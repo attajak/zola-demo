@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Zola Demo",
+    "short_name": "Zola",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
